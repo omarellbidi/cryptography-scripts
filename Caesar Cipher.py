@@ -58,7 +58,7 @@ def identify_plaintext(decryptions):
 # Example usage
 if __name__ == "__main__":
     # Original text and encryption
-    original = "meet them after work."
+    original = "This is Caesar cipher script."
     z = 13  # Our secret key 'z'
     encrypted = caesar_encrypt(original, z)
     
